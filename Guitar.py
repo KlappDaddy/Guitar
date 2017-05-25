@@ -18,7 +18,7 @@ def verse(str):
 	for letter in str:
 		sys.stdout.write(letter)
 		sys.stdout.flush()
-		time.sleep(0.06)
+		time.sleep(0.08)
 
 print('[Verse]\n--------------------------------------')
 print(       '[G]')
@@ -44,7 +44,7 @@ def chorus(str):
 	for roo in str:
 		sys.stdout.write(roo)
 		sys.stdout.flush()
-		time.sleep(0.05)
+		time.sleep(0.07)
 
 print('[Chorus]\n--------------------------------------')
 print('[G]            [D]')
@@ -85,7 +85,7 @@ def bridge(str):
 	for hello in str:
 		sys.stdout.write(hello)
 		sys.stdout.flush()
-		time.sleep(0.03)
+		time.sleep(0.04)
 
 print('[Bridge]\n--------------------------------------')
 print('[G]                    [Bm]') 
